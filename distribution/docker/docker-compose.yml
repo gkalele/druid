@@ -60,7 +60,7 @@ services:
       - zookeeper
       - postgres
     ports:
-      - "8081:8081"
+      - "8182:8081"
     command:
       - coordinator
     env_file:
